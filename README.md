@@ -9,6 +9,7 @@ Yaşamımız boyunca düzenli kullandığımız veya bir kere olsa da karşıla�
 4)Gerçekleştirme (Implementation):Sistemin kodlandığı, test edildiği ve kurulum çalışmalarının yapıldığı bölümdür.
 5)Bakım (Maintenance): Yazılımın tüm aşamaları tamamlanıp teslimi yapıldıktan sonra bu aşama başlar.Ürünün kullanımıyla alınan geri bildirimler sonucunda bakım ve güncellemeler yapılır.Bu bölüm yazılumun yaşamı boyunca sürer.
 Yazılımın yaşam döngüsünde temel adımlar aynı kalmak üzere farklı modellere ayrılmıştır.Bu sayede yaşanabilecek sorunlardan ve karışıklıktan kurtularak projenin işleyişinde kolay ve rahat bir süreç geçmesini sağlar.Bu modeller kendi içinde geleneksel ve çevik olarak ikiye ayrılır.
+ 
 Geleneksel Yazılım Süreç Modelleri:
 1)	Gelişigüzel Model: Temel olarak bakıldığında bunu bir model olarak kabul etmek doğru olmaz.Çünkü bahsettiğimiz sistemde model veya bir yöntem bulunmaz.Kişiye bağlı değişiklik gösteren bu model için eskiden kalma olarak söz etmek yanlış olmaz.Bugünkü kullanımı ise genellikle basit programlamalar için uygulanır ve bakımı zordur.
 
@@ -20,7 +21,7 @@ Geleneksel Yazılım Süreç Modelleri:
 
 
 
-4)	V Süreç Modeli: Model V harfini andırmasından adını alır.Sol tarafı üretim, sağ tarafı sınama işlemleri ile ilgili aşamalardan oluşmaktadır. Her bir aşamanın sonunda sınama işlemleri de bulunduğu için hata kaynaklarına dönüş kolaydır.Modelin üç adet temel çıktısı bulunur bunlar:
+4)	V Süreç Modeli: Model V harfini andırmasından adını alır.Sol tarafı üretim, sağ tarafı sınama işlemleri ile ilgili aşamalardan oluşmaktadır. Her bir aşamanın sonunda sınama işlemleri de bulunduğu için hata kaynaklarına dönüş kolaydır.Modelin üç adet temel çıktısı bulunur bunlar:  
 *Kullanıcı Modeli: Kullanıcının geliştirme süreci ilişkisini tanımlayıp sistemin kabul ve sınama belirtimleri ortaya çıkarılmaktadır.
 *)Mimari Model: Sistemin tasarım ve alt sistem ile bütün sistem sınama işlemlerine ilişkin işlemler.
 *)Gerçekleştirim Modeli: Yazılımın modül kodlanması ve sınanmasına ilişkin fonksiyonlar.
@@ -32,7 +33,7 @@ Kullanıcının proje katkısını arttırdığı bir modeldir.İş tanımların
            *)Üretim: Ara/Ana ürünün üretilmesi.
            *)Kullanıcı Değerlendirmesi: Çıkan ürünle ilgili olarak kullanıcı tarafından direkt yapılan değerlendirme ve sınama.
 Bu modelde her zaman sonraki aşama planlanır.Risk analizi vurgusu yapılır ve olası riskler belirlenip çözülür.Alternatifler,kısıtlamlar ve hedefler belirlenir.Prototip yaklaşamı vardır ve üretilen prototipler sayesinde yinelemeli artırımlı bir yaklaşımı vardır.En önemli avantajlarından birisi kullanıcının isteklerinin tamamına yanıt verebilir ve hatalar oldukça erken fark edilerek maliyet ve zaman kaybı önlenir.Komplike bir yapıya sahiptir.Bu modelin eksisi olarak küçük ve düşük riskli projeler için çok pahalı bir sistem olması olabilir.
-
+ 
             6)Artımsal Geliştirme Süreç Modeli: Bu model tek seferde teslim yerine geliştirme ve teslimi parçalara böler. Kullanıcının ihtiyaçları önceliklendirilir ve önemli ihtiyaçlar erken teslime dahil edilir.Sıralanan parçaların bitişiyle ara ürün geliştirilir ve her seferinde kullanıcı tarafından test edilir.Olası değişiklikler ise sonraki teslimlerde ele alınır. Üretilen her sürüm birbirini içerir ve giderek artan sayıda işlev içererek geliştirilir.Kullanım ve üretim birlikte götürülür.Uzun zaman alabilecek ve eksik olması sorun olmayacak projeler bu modele uygun olabilir.Projenin tümden başarısız olma ihtimalini azaltır.
 
            7 )Kodla ve Düzelt Yaşam Döngü Modeli: İlk aşamada projenin ilk sürümü geliştirilir.Sistemin istenilen ürün olana kadar devam etmesi beklenir.Emekliye ayrılma safhası vardır.En kolay geliştirme modellerinden biridir fakat süreçle beraber masrafı fazla olabilir.Küçük yapıda belki birkaç yüz satır ve daha az süren projeler için uygundur.
@@ -43,6 +44,8 @@ Bu modelde her zaman sonraki aşama planlanır.Risk analizi vurgusu yapılır ve
 *)Basitlik:Geri bildirimi hızlı sağlayabilmek için basit ve karmaşıklıktan uzak çözümler tercih edilir.
 *)İletişim: Bir projede ekibin tam olarak birbiriyle anlaşamaması büyük bir sorundur.XP bu problemi kaldırmak için sağlıklı bir iletişimi amaçlar.Yapılan iletişim yüz yüze ve anlaşılır olmalıdır.Bireylerin deneyimsizliği veya egoları samimi bir iletişim ortamını engeller.
 *)Cesaretlendirme: “Bu projeyi bititirebilir miyiz” korkusu projeler için sıkıntılı olaylardan birisidir.Bu çok kolay bir şekilde çözülebilecek işlerin bile aksamasına neden olabilir.XP bu korkunun gereksiz olduğunu ve yazılımcının da hata yapabileceğini savunur.
+
+ 
 2)SCRUM: Gün geçtikçe projelerin büyümesi ve karışıklaşması sebebiyle müşterinin olayın sonunu görememesi ve ihtiyaçlarını tam ortaya dökememesi sebebiyle projelerde bir çok hata çıkmaya başladı.Bu yapı üç temel değer üzerine kurulmuştur.Şeffaflık, projenin ilerleyişi ve yaşanan problemler herkes tarafından görülebilir olmalıdır.Denetleme, ilerleyiş düzenli olarak kontrol edilir.Uyarlama, projenin değişikliklere uyum sağlayabilmesidir.
 Scrumda üç çeşit fikirleri ürünlere dönüştürebilen takımlar bulunur:
 *)Ürün Sahibi(Owner):Fikirleri toplar, değerlendirir ve olma ihtimali bulunanları geliştirme takımına iletir.
@@ -54,4 +57,4 @@ Scrumda çeşitli etkinlikler bulunur bunlar:
 *Günlük Stand Up(Daily Stand Up): Ekibin her bir üyesinin ilerlemesini hızlı ve şeffaf bir şekilde ele aldığı kısa bir iletişim toplantısıdır.
 *Sprint İncelemesi:Ürün sahibi , çalışmayı önceden tanımlanmış kabul kriterlerine göre kontrol eder ve çalışmayı kabul veya redderder.
 Özetle scrum çok yapılı ve disiplinli bir metodolojidir.Tüm ekip üyeleri tarafından sahip olunan bireysel rollerin daha iyi anlaşılması ve benimsenmesine olanak sağlar.Bu sayede daha kaliteli ve hızlı projeler ortaya çıkar.
- 
+  
